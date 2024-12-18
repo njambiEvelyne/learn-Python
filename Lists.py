@@ -51,7 +51,7 @@ cool.index("Evelyne")
 print(cool)
 
 lucky_Numbers= [4,5,7,79,14]
-print("Arraned in Ascending Order")
+print("Arranged in Ascending Order")
 lucky_Numbers.sort()
 print(lucky_Numbers)
 
