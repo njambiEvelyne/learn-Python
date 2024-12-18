@@ -14,10 +14,10 @@ from Calculator import output
 #     print("x "* x_count)
 
 #Alternatively
-numbers = [5, 2, 5,2,2]
+numbers = [1, 1, 1,1,7]
 for x in numbers:
     output=""
     for count in range(x):
         output += "x"
-    print(output)
+    print(f"{output} " , "")
 
