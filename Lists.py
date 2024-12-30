@@ -1,6 +1,5 @@
 friends= ["Jane", "Solomon", "Mwikali", "Rose", "Grace"]
 print(friends)
-
 friends[3]= "Rodah\n"
 print(friends[3])
 
@@ -59,3 +58,15 @@ lucky_Numbers= [4,5,7,79,14]
 print("Display begins from the right to left/From the back to front")
 lucky_Numbers.reverse()
 print(lucky_Numbers)
+
+numbers =  [5,2,4,6,8]
+numbers.insert(0,20)
+print(numbers)
+numbers.pop()
+print(numbers)
+numbers.sort()
+numbers.reverse()
+print(numbers)
+
+numbers2 = numbers.copy()
+print(numbers2.remove(5))

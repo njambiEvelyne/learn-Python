@@ -2,7 +2,7 @@ daily_temp_c =[1,3,5,8,45,3,10]
 
 for temp_c in daily_temp_c:
     temp_faren = temp_c * (9/5) * 32
-    print(f"The temperature in Farenheit is {temp_faren} ")
+    print(f"The temperature in Farenheit is {temp_faren} \n")
 
 else:
     print("The conversion has been successful!")
