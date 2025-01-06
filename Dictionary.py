@@ -14,3 +14,6 @@ monthConversions = {
 }
 print(monthConversions["Nov"])
 print(monthConversions.get("luk","Not a valid key "))
+
+alien_0 = {'color': 'green'}
+print("The alien is " + alien_0['color'] + ".")
