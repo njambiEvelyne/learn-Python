@@ -1,4 +1,4 @@
-daily_temp_c =[1,3,5,8,45,3,10]
+daily_temp_c =[1,3,5,8,45,3,10,100]
 
 for temp_c in daily_temp_c:
     temp_faren = temp_c * (9/5) * 32
