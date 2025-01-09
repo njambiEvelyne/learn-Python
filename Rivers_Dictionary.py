@@ -1,0 +1,4 @@
+rivers = {
+    "Nile": "Egypt",
+    ""
+}
