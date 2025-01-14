@@ -5,7 +5,8 @@ class Robot:
         self.weight = weight
 
     def __str__(self):
-        return f"Robot(name = {self.name}, color = {self.color}, weight = {self.weight})"
+        return f"Robot(name = {self.name}, color= {self.color}, weight = {self.weight})"
+
 
 
 r1 = Robot("Tom", "red", 30)
@@ -14,8 +15,7 @@ print("")
 
 r2 = Robot("Emmy", "blue", 40)
 print(r2)
-print("")
-
+print('')
 
 class Person:
     def __init__(self, name, personality, is_sitting, r):
@@ -30,13 +30,14 @@ class Person:
     def stand_up(self):
         self.isSitting = False
 
-    def ownership(self):
-        return f"Person name: {self.name} owns {self.robot_owned}"
+    def __str__(self):
+        return f"(Person name:{self.name} owns {self.robot_owned})"
 
-
-p1 = Person("Evelyne", "Quiet", False, r2)
+p1 = Person("Evelyne","Quiet", False,r2 )
 p2 = Person("Alice", "Talkative", True, r1)
+print(p1)
+print("")
 
-# Print ownership
-print(p1.ownership())
-print(p2.ownership())
+print(p2)
+
+
