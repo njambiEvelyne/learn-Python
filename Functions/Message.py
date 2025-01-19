@@ -11,3 +11,20 @@ print(display_message("The untamed", '''
 5. I need God in all that I do.  
 6. A prayer to ensure I stay aligned with the will if God.
 '''))
+
+def book_title (lesson = "", title = "Untamed"):
+    return f"The title is {title}"
+
+print(book_title("""
+1. Hello
+"""))
+
+book = book_title()
+print(book)
+
+def build_person(first_name, last_name):
+    person = {"First name":first_name, "Second Name": {last_name}}
+    return person
+
+print(build_person("Evelyne", "Njambi"))
+
