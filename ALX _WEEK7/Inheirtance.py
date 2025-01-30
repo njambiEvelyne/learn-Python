@@ -10,6 +10,6 @@ class Dog(Animal):
         super().__init__(name)
         self.breed = breed
 
-dog = Dog("Buddy", "Labrador")
+dog = Dog("Buddy", "Labrador ")
 
 
